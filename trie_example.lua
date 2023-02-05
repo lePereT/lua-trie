@@ -8,7 +8,7 @@ end
 local trie = require "trie"
 
 local function iterstr(str)
-    return str:gmatch"."
+    return str:gmatch(".")
 end
 
 local keys = {
